@@ -96,3 +96,91 @@ header .navbar li a:hover {
     font-family: 'Lora', serif;
     font-weight: 600;
 }
+
+.contenido .tituloBox p {
+    font-size: 1.8em;
+    line-height: 1.5;
+    color: #7a551c;
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contenido .tituloBox a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffd5;
+    background: #7a551c;
+    padding: 10px 20px;
+    margin-left: 30px;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+.contenido .tituloBox a:hover {
+    color: #7a551c;
+    background: #ffffd5;
+}
+
+.contenido .imgBox {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: -50px;
+}
+
+.contenido .imgBox img {
+    width: 480px;
+}
+
+.circulo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #9b7239;
+    clip-path: circle(650px at right 750px);
+    width: 100%;
+    height: 100%;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+    margin-bottom: 20px;
+    padding: 0 100px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright p {
+    color: #ffffd5;
+}
+
+.redesSociales {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 30px;
+    list-style: none;
+}
+
+.redesSociales li {
+    padding: 10px;
+}
+
+.redesSociales li a {
+    color: #ffffd5;
+    font-size: 1.5em;
+    transition: 0.3s;
+}
+
+.redesSociales li a:hover {
+    color: #7a551c;
+}
