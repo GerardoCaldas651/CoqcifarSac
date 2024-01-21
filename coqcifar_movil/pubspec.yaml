@@ -62,6 +62,13 @@ flutter:
   assets:
     - lib/assets/farma.jpg
     - lib/assets/logocoq.png
+    - lib/assets/woman.png
+    - images/quiz.png
+    - images/about.png
+    - images/job.png
+    - images/mcqs.png
+    - images/pdf.png
+    - images/pastpapers.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
